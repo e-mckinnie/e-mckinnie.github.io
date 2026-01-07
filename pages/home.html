@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html id="home">
+	<head>
+		<title>Elizabeth McKinnie's website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv='cache-control' content='no-cache'> 
+		<meta http-equiv='expires' content='0'> 
+		<meta http-equiv='pragma' content='no-cache'>
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			$(function(){
+				$("#header").load("page_elements/header.html");
+			});
+		</script>
+		<script>
+			$(function(){
+				$("#sidebar").load("page_elements/sidebar.html");
+			});
+		</script>
+
+</head>
+	<body class="is-preload">
+			<div id="wrapper">
+					<div id="main">
+						<div class="inner">
+							 <div id="header"></div>
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Hi, I’m Elizabeth McKinnie</h1>
+											<p>PhD student in Information Science at CU Boulder</p>
+										</header>
+									</div>
+									<span class="image object">
+										<img src="images/profile_pic.jpg" alt=""/>
+									</span>
+								</section>
+						</div>
+					</div>
+					<div id="sidebar"></div>
+			</div>
+	</body>
+</html>
